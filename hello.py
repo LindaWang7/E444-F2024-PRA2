@@ -150,3 +150,14 @@ def index():
         return redirect(url_for('index'))
     return render_template('index.html', form=form, name=session.get('name'), 
                            email=session.get('email'), current_time=datetime.utcnow())
+
+
+#Docker container image is a lightweight, standalone, executable package 
+#of software that includes everything needed to run an application: code, 
+#runtime, system tools, system libraries and settings
+
+#Docker images: read-only templates that contain instructions for creating a container
+
+#Docker file builds image, image run container
+
+#Docker Daemon: A persistent background process that manages Docker images, containers, networks, and storage volumes. 
